@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Binary Conversion</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+    <header>
+       
+    </header>
+
+    <form>
+        <div class='container'>
+            <div class='child'>
+        	   <label class='box-labels'>Input</label><br>
+                
+            	<textarea placeholder='enter your string' class='field-boxes' id='field-box1'></textarea><br>
+
+                <select class='options' name='options'>
+                    <option value='binary'>Binary</option>
+                    <option value='string'>String</option>
+                </select>
+            </div>
+        </div>
+
+        <div class='swap-line'>
+    	   <!-- <hr class='line-break'> -->
+            <img src="imgs/swap.svg" class='arrow-img' id='arrow'>
+        </div> 
+
+        <div class='container'>
+            <div class='child'>
+            	<label class='box-labels'>Output</label><br>
+
+            	<textarea class='field-boxes' id='field-box2' readonly=""></textarea>
+
+                <select class='options' name='options'>
+                    <option value='binary'>Binary</option>
+                    <option value='string'>String</option>
+                </select>
+            </div>
+        </div>
+
+        <div id='control-container'>
+            <div id='controls'>
+                <button type='button' id='sumbit-button'>Generate</button><br>
+                <button type='button' id='reset-button'>Reset</button><br>
+                <button type='button' id='select-button'>Select</button><br>
+                <button type='button' id='copy-button'>Copy</button>
+
+            </div>
+        </div>
+
+
+        <div class='window-container' id='window-container'>
+            <div class='info-window-container'>
+                <h6 id='exit-button'>x</h6>
+                <div class='info-window'>
+                    <h1>Copy on Mac</h1>
+                    <p>Hold Command key and press 'C' key</p>
+                    <img src='imgs/mac-keyboard.jpg' width='250px' height="100px">
+                </div>
+            </div>
+        </div>
+
+
+    
+    
+
+    <script src='scripts/script1.js'></script>
+
+    </body>
+</html>
